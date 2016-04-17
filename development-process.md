@@ -14,7 +14,7 @@ Everyday meeting where team members answer the following questions:
 
 * What did I do yesterday?
 * What will I do today?
-* Anything that prevents me from doing my tasks?
+* Is there anything that prevents me from doing my tasks?
 
 ###Tasks
 Tasks are expressed as user stories. The goal is to move all the task items from left to right.
@@ -31,10 +31,10 @@ List of requirements that must be true for each task for it to be considered as 
 > * Task item updated
 > * Pushed to staging
 
-Definition of done is decide by the team and may vary per project.
+Definition of done is decided by the team and may vary per project.
 
 ###Acceptance Criteria
-List of requirements per user story. Guides to team on how to implement the story by enumerating expected features or requirements that has to be done for the story to be accepted by the Product Owner.
+List of requirements per user story. Guides to team on how to implement the story by enumerating expected features or requirements that must be done for the story to be accepted by the Product Owner.
 
 *Example*
 > User story: As a customer, I want to be able to register into the site.
@@ -68,19 +68,19 @@ Scrum checklist:
 Regularly spend time to improve your Backlog for better clarity, prioritization or structuring.
 
 ###Review
-Demo the shipped code to the entire team with the stakeholders. This provides a tangible component to the team's accomplishment. Since not all features or code changes are visible from the front-end (Web Services, etc), there are times where a mock-up client can be used to demonstrate a feature.
+Demo the shipped code to the entire team with the stakeholders. This provides a tangible component to the team's accomplishment. Since not all features or code changes are visible from the front-end (Web Services, etc), there are times when a mock-up client can be used to demonstrate a feature.
 
-In the context of Continuous Integration (CI), there are instances where a formal Review setup is not practiced especially when the team is closely working with the Product Owner. If the Product Owner has already signed off on the deployment it can be taken as **accepted**.
+In the context of Continuous Integration (CI), there are instances when a formal Review setup is not practiced especially when the team is closely working with the Product Owner. If the Product Owner has already signed off on the deployment, it can be taken as **accepted**.
 
 ###Retrospective
-For Scrum there is a clearly defined slot on when should the team do a spri
+For Scrum there is a clearly defined slot on when the team should do a retrospective.
 
 ###Development Guidelines
 
 ####Always write tests
 
 ####Commit frequently. Avoid huge commits
-Large commits make it difficult to revert when a breaking change is merged. Granular commits enable better change visibility
+Large commits make it difficult to revert when a breaking change is merged. Granular commits enable better change visibility.
 
 ####Do not re-open or change accepted stories
 Create a new story with any changes that come up after a story has been accepted.
@@ -100,7 +100,7 @@ Pushing updates daily minimizes possible integration issues and backtracking eff
 
 ####Rules in pushing to CI
 * Explicit timeslot when to push updates to production
-* Critical fixes can be pushed as soon as they are availabe. Should be accompained by its own changelog entry
+* Critical fixes can be pushed as soon as they are availabe. It should be accompained by its own changelog entry
 * Deployment of critical fixes should be approved by a change control board
 * Non-critical fixes are deployed on schedule
 * Check in frequently
@@ -111,7 +111,7 @@ Pushing updates daily minimizes possible integration issues and backtracking eff
 ###Changelog
 It is equally important to keep an updated changelog enumerating the updates.
 
-Place the changelog in the repo so when the code is merged the changelog updates are merged as well.
+Place the changelog in the repo so when the code is merged, the changelog updates are merged as well.
 
 > *Whether the edge changelog is available to the public is something to be discussed*
 
@@ -119,9 +119,9 @@ Place the changelog in the repo so when the code is merged the changelog updates
 
 Effectively managing technical debt by making updates are applied whenever possible.
 
-Breaking changes usually happens when an updated is applied to an app that has significant technical debt.
+Breaking changes usually happens when an update is applied to an app that has significant technical debt.
 
-It is a recommended practice to ensure update compatiblity whenever it is available.
+It is recommended practice to ensure update compatiblity whenever available.
 
 Rules in implementing updates:
 
@@ -133,11 +133,11 @@ Rules in implementing updates:
 
 All deadlines are movable.
 
-It is important no to commit to arbitray deadlines. The best practice to setting deadline is to let the backlog speak for itself. Measuring the work done from previous cycles to set the benchmark on what the team can accomplish in a given amount of time.
+It is important not to commit to arbitrary deadlines. The best practice on setting deadlines is to let the backlog speak for itself by measuring the work done from previous cycles to set a benchmark on what the team can accomplish in a given amount of time.
 
 ###Fixed Date Projects
 
-In the current business environment it is common to have an agreement on the expected project delivery date to plan out non-development activites (e.g. Marketing campaign). In this scenario, it is recommended that the team would spend time trying to build the product before a timeline is given. This would help the team understand the context of the project and have an **estimate** on the workload require.
+In the current business environment it is common to have an agreement on the expected project delivery date to plan out non-development activites (e.g. Marketing campaign). In this scenario, it is recommended that the team would spend time trying to build the product before a timeline is given. This would help the team understand the context of the project and have an **estimate** on the workload required.
 
 ##Best Practices
 
@@ -145,7 +145,7 @@ In the current business environment it is common to have an agreement on the exp
 
 Using a static code analyzer like [Rubocop](https://github.com/bbatsov/rubocop) to enforce style guide is a good way to get started.
 
-For projects who have a huge code repository, a tool like [Pronto](mmozuras/pronto) where you can run static code analyzers just for the delta is worth considering.
+For projects that have a huge code repository, a tool like [Pronto](mmozuras/pronto) where you can run static code analyzers just for the delta is worth considering.
 
 ###Acceptance Test
 
