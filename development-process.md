@@ -5,7 +5,8 @@
 * Deployment
 * Updates
 * Deadlines
-* Best Practices
+* Best practices
+* Bugs/Defects
 
 ##Planning
 
@@ -16,7 +17,7 @@ Everyday meeting where team members answer the following questions:
 * What will I do today?
 * Is there anything that prevents me from doing my tasks?
 
-###Tasks
+###User Stories
 Tasks are expressed as user stories. The goal is to move all the task items from left to right.
 
 *Example*
@@ -151,7 +152,26 @@ For projects that have a huge code repository, a tool like [Pronto](mmozuras/pro
 
 All code commits should have corresponding tests and it should pass.
 
+##Bugs/Defects
+
+Bugs / Defects are also written in user stories
+
+*Example*
+> As a user, I DO NOT want to receive more than one (1) email confirmation message
+
+If possible, include steps to reproduce the behaviour.
+
+*Example*
+* Register into the website by entering a valid email and password
+
+Bug / Defect user stories should also include a acceptance criteria.
+
+*Example*
+* Valid email address is accepted into the site
+* Only one (1) email confirmation message is sent to the entered email address
+
 ##References
 * http://blog.aelogica.com/development/aelogica-flavored-agile/
 * https://www.thoughtworks.com/continuous-integration
 * http://www.joelonsoftware.com/articles/fog0000000043.html
+* http://www.payton-consulting.com/how-to-write-user-stories-for-bugs/
