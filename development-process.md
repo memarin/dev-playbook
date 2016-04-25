@@ -7,6 +7,7 @@
 * Deadlines
 * Best practices
 * Bugs/Defects
+* Validating fixes
 
 ##Planning
 
