@@ -101,6 +101,12 @@ It is easier to identify freeze points in Scrum because of the release cycle. Fo
 
 Code freeze will be in effect on the day of the deploy, it will end once the deploy branch has been pushed to production.
 
+For Kanban:
+
+Since Kanban is about continuously pushing out products/updates like an assembly line. Code/Feature freezes have a different mindset compared to Scrum.
+
+A freeze is done with a completion of an effort in mind, even though instances where it is timebound. In a Kanban setting, a usual scenario for a freeze is when an external update is needed. Imposing a freeze would shift all efforts from product development to compability. This help ensure once the update is applied to breaking changes has been merged.
+
 Exception to code/feature freezes are hotfix which should be deployed as soon as they are ready.
 
 ##Deployment
