@@ -6,7 +6,7 @@
 * Add field to enter email address in login page
 * Remove extra spaces below the header
 * ATS name | Add custom ID to API call
-* ATS name 1, ATS name 2 |
+* ATS name 1, ATS name 2 | Send candidate ID to the ATS when an invite is requested
 
 
 ##11042016
