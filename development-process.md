@@ -197,3 +197,4 @@ For hotfixes, it should be reviewed as soon as it is available.
 * https://www.thoughtworks.com/continuous-integration
 * http://www.joelonsoftware.com/articles/fog0000000043.html
 * http://www.payton-consulting.com/how-to-write-user-stories-for-bugs/
+* https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/
