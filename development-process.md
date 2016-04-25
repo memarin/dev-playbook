@@ -186,6 +186,11 @@ Bug / Defect user stories should also include an acceptance criteria.
 * Valid email address is accepted into the site
 * Only one (1) email confirmation message is sent to the entered email address
 
+###Validating Fixes
+To review a fix a 24 hour window or until end of shift next day will be given. If deploy is scheduled on the next day, all fixes should be signed off within the day.
+
+For hotfixes, it should be reviewed as soon as it is available.
+
 ##References
 * http://blog.aelogica.com/development/aelogica-flavored-agile/
 * https://www.thoughtworks.com/continuous-integration
