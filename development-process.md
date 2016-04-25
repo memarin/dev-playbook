@@ -2,6 +2,7 @@
 
 * Planning
 * Process
+* Code/Feature Freeze
 * Deployment
 * Updates
 * Deadlines
@@ -91,6 +92,16 @@ Create a new story with any changes that come up after a story has been accepted
 The longer a bug is in the system, the more expensive it is to fix.
 
 As you are pushing in new features with
+
+##Code/Feature Freeze
+
+For Scrum:
+
+It is easier to identify freeze points in Scrum because of the release cycle. For a two (2) week sprint, a feature freeze wil start on the second week until the scheduled deployment. For the entire second week all efforts will shift from feature development to bug fixing.
+
+Code freeze will be in effect on the day of the deploy, it will end once the deploy branch has been pushed to production.
+
+Exception to code/feature freezes are hotfix which should be deployed as soon as they are ready.
 
 ##Deployment
 
