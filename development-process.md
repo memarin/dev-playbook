@@ -125,7 +125,7 @@ Header per entry would follow a date format (DDMMYYY). For the change items, it 
 
 For change items specific to an integration, commit message should follow this format
 
-*Example
+*Example*
 > ##25042016
 > * ATS name | Add unique ID to API call
 
