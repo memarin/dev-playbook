@@ -39,7 +39,7 @@ List of requirements per user story. Guides to team on how to implement the stor
 
 *Example*
 > User story: As a customer, I want to be able to register into the site.
-> 
+>
 > Acceptance criteria:
 >
 > * A customer can enter their email address and password to register
@@ -116,8 +116,20 @@ Place the changelog in the repo so when the code is merged, the changelog update
 
 > *Whether the edge changelog is available to the public is something to be discussed*
 
-##Updates
+####Format
+Header per entry would follow a date format (DDMMYYY). For the change items, it is in bullet form pulled from the Git commit message of the merged code. It is important to have a single line commit message for the list items to line up legibly.
 
+*Example*
+> ##25042016
+> * Add login page
+
+For change items specific to an integration, commit message should follow this format
+
+*Example
+> ##25042016
+> * ATS name | Add unique ID to API call
+
+##Updates
 Effectively managing technical debt by making updates are applied whenever possible.
 
 Breaking changes usually happens when an update is applied to an app that has significant technical debt.
@@ -164,7 +176,11 @@ If possible, include steps to reproduce the behaviour.
 *Example*
 * Register into the website by entering a valid email and password
 
-Bug / Defect user stories should also include a acceptance criteria.
+Bug / Defect user stories should also include an acceptance criteria.
+
+*Example*
+* Able to register using a valid email address and password
+* Receive only one (1) email confirmation message
 
 *Example*
 * Valid email address is accepted into the site
