@@ -8,9 +8,14 @@
 * ATS name | Add custom ID to API call
 * ATS name 1, ATS name 2 | Send candidate ID to the ATS when an invite is requested
 
-
 ##11042016
 
 * Adjust header 30px to the left
 * Remove extra whitespaces below the navbar
 * ATS name | Update logic to only send 1 confirmation email to a candidate
+
+##28032016
+
+* Add remember me functionality in login page
+* Add email validation when creating new users
+* Add custom error message for invalid login
