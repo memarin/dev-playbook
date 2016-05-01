@@ -3,7 +3,7 @@
 
 ##Structure
 > ##*Date (DDMMYYYY)* - *Version*
-> * XXX-1234 (*JIRA Reference*) - Add function X (*Git commit message*)
+> * XXX-1234 (*JIRA Reference*) Add function X (*Git commit message*)
 
 ##25042016 - 2.201
 
