@@ -1,6 +1,10 @@
 
 #Changelog
 
+> Structure
+> ##*Date (DDMMYYYY)* - *Version*
+> * XXX-1234 (*JIRA Reference*) - Add function X (*Git commit message*)
+
 ##25042016 - 2.201
 
 * ADM-2956 Add field to enter email address in login page
