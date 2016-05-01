@@ -1,7 +1,7 @@
 
 #Changelog
 
-> Structure
+##Structure
 > ##*Date (DDMMYYYY)* - *Version*
 > * XXX-1234 (*JIRA Reference*) - Add function X (*Git commit message*)
 
